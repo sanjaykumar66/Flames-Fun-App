@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="0.6"
+    android:background="@drawable/flames"
+    android:id="@+id/layout"
+    tools:context="com.example.hp.mypp.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="264dp"
+        android:layout_height="53dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="          FLAMES"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="49dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="147dp"
+        android:ems="10"
+        android:hint="Enter the Name"
+        android:inputType="textPersonName"
+        android:textAllCaps="false"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="152dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="262dp"
+        android:ems="10"
+        android:hint="Enter the Name"
+        android:inputType="textPersonName"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="241dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editText3"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="207dp"
+        android:background="@color/colorPrimary"
+        android:text="Submit"
+        android:textColor="#f4f5fa"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/editText3"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="132dp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="153dp"
+        android:alpha="1"
+        android:cursorVisible="false"
+        android:editable="false"
+        android:ems="10"
+        android:enabled="false"
+        android:gravity="center"
+        android:hint="        Both are in"
+        android:inputType="textPersonName"
+        android:textAllCaps="true"
+        android:textColor="?attr/colorPrimaryDark"
+        android:textColorHint="@android:color/holo_blue_bright"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        android:typeface="monospace"
+        tools:clickable="false"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="432dp" />
+
+
+
+</RelativeLayout>
